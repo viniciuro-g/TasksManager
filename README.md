@@ -79,7 +79,7 @@ A API expõe os seguintes endpoints para manipulação de tarefas:
 | Criar Nova Tarefa | `POST` | `/api/tarefas` |
 | Atualizar Tarefa | `PATCH` | `/api/tarefas/{id}` |
 | Deletar Tarefa | `DELETE`| `/api/tarefas/{id}` |
-| Concluir Tarefa | `DELETE`| `/api/tarefas/{id}/concluir` |
+| Concluir Tarefa | `PUT`| `/api/tarefas/{id}/concluir` |
 
 ---
 
